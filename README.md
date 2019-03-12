@@ -4,6 +4,7 @@ Step-by-step
 1. `brew install pyenv` 
 1. Define environment variable: In terminal, enter `nano ~/.bash_profile` and then paste the following, then save and exit: 
 `$ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile`
+
 `$ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile`
 1. Add `pyenv init` to shell via the following command:
 `$ echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bash_profile`
